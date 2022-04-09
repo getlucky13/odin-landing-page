@@ -1,0 +1,42 @@
+.logo,
+.hero-main,
+.signup-button, 
+.signup-header {
+    color: #f9faf8;
+}
+
+.links, 
+.hero-secondary,
+.signup-content,
+.footer {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.signup-container {
+    background-color: #3882f6;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.quote,
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.info-header {
+    font-weight: bolder;
+}
+
+.quote {
+    font-style: italic;
+}
