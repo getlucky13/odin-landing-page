@@ -86,6 +86,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 18px;
 }
 
 .main {
@@ -108,11 +109,24 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px
-  }
+}
 
-  .hero {
+.hero {
     padding-top: 64px;
     padding-bottom: 64px;
-  }
+    display: flex;
+}
 
-  
+.image, 
+.hero-text {
+    width: 400px;
+    height: 200px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #f9faf8;
+}
