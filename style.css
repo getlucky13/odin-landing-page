@@ -1,7 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+}
+
+.hero,
+.info,
+.testimonial,
+.signup {
+    height: 380px;
 }
 
 .logo,
@@ -66,10 +74,11 @@ body {
     font-style: italic;
 }
 
-.hero, 
+.main, 
 .info,
 .testimonial,
-.signup {
+.signup,
+.info-cards {
     flex: 1;
 }
 
@@ -112,9 +121,12 @@ ul {
 }
 
 .hero {
-    padding-top: 64px;
-    padding-bottom: 64px;
     display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    margin-right: 16px;
 }
 
 .image, 
@@ -144,7 +156,6 @@ ul {
     display: flex;
     gap: 32px;
     justify-content: center;
-    flex: 1;
 }
 
 .info-card {
