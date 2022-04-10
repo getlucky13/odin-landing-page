@@ -130,3 +130,16 @@ ul {
     background-color: grey;
     color: #f9faf8;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
