@@ -102,3 +102,17 @@ body {
     background-color: #1f2937;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  
