@@ -84,16 +84,21 @@ body {
 
 .header {
     display: flex;
-    flex: 1;
     flex-direction: row;
-    align-items: flex-start;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
 }
 
 .main {
     display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
 }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
