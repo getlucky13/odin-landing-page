@@ -142,7 +142,7 @@ ul {
 
 .info-cards {
     display: flex;
-    gap: 24px;
+    gap: 32px;
     justify-content: center;
     flex: 1;
 }
