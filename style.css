@@ -224,3 +224,10 @@ ul {
     align-items: center;
     padding: 16px;
 }
+
+/*I had noted in a commit previously that it may be possible to get
+the site to properly expand and contract based on size of device. 
+I didn't think to use percentages for the values of height or width.
+In the future, I suspect that this will achieve my goal, and maybe
+at some point I'll come back to this assignment and update it with 
+this knowledge.*/
