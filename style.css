@@ -37,12 +37,12 @@ body {
 .button-hero,
 .button-signup {
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
 }
 
 .button-hero,
 .button-signup {
-    color: #f9faf8;
-    border-radius: 8px;
     font-size: 20px;
 }
 
@@ -197,4 +197,23 @@ ul {
 .thor {
     text-align: right;
     width: 740px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    display: flex;
+    width: 800px;
+    padding: 40px;
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
 }
